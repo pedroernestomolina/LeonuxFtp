@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuracion>
+  <Modo></Modo>
+  
+  <Servidor>
+    <Host>192.168.1.20</Host>
+    <BD>00000001</BD>
+  </Servidor>
+
+  <Sucursal>
+    <Id>02</Id>
+    <RutaUbicacionBoletin>entrada02</RutaUbicacionBoletin>
+    <RutaUbicacionCierre>entrada01</RutaUbicacionCierre>
+  </Sucursal>
+
+  <EnviarBoletinA>2,3</EnviarBoletinA>
+  
+</Configuracion>
