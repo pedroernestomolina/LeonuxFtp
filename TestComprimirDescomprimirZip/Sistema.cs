@@ -20,6 +20,13 @@ namespace TestComprimirDescomprimirZip
         public static string _RutaUbicacionBoletin { get; set; }
         public static string _RutaUbicacionCierre { get; set; }
 
+        public static string _RutaMaster_ParaAlojarBoletin { get; set; }
+
+        public static string _RutaParaCrearArchivoCierre  {get;set;}
+        public static string _RutaParaAlojarCierre  {get;set;}
+        public static string _RutaParaAlojarBoletin {get;set;}
+        public static string _RutaParaDescomprimirBoletin {get;set;}
+
         public static string[] _ListaSucursalesEnviarBoletin { get; set; }
 
     }

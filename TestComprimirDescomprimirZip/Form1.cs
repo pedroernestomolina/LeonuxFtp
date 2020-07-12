@@ -46,6 +46,9 @@ namespace TestComprimirDescomprimirZip
 
             BT_BAJAR_BOLETIN.Enabled = !_controlador.IsMaster;
             BT_SUBIR_CIERRE.Enabled = !_controlador.IsMaster;
+            BT_PREPARAR_CIERRE.Enabled = !_controlador.IsMaster;
+            BT_INSERTAR_BOLETIN.Enabled = !_controlador.IsMaster;
+
             L_VERSION.Text = "Ver. " + Application.ProductVersion;
         }
 
@@ -100,6 +103,26 @@ namespace TestComprimirDescomprimirZip
             this.Refresh();
         }
 
+        private void BT_PREPARAR_CIERRE_Click(object sender, EventArgs e)
+        {
+            PrepararCierre();
+        }
+
+        private void PrepararCierre()
+        {
+            _controlador.PrepararCierre();
+        }
+
+        private void BT_INSERTAR_BOLETIN_Click(object sender, EventArgs e)
+        {
+            InsertarBoletin();
+        }
+
+        private void InsertarBoletin()
+        {
+            _controlador.InsertarBoletin();
+        }
+   
     }
 
 }

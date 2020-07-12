@@ -37,6 +37,18 @@ namespace TestComprimirDescomprimirZip.Helpers
                                     }
                                 }
 
+                                if (nv.LocalName.ToUpper().Trim() == "MASTER")
+                                {
+                                    foreach (XmlNode mc in nv.ChildNodes) 
+                                    {
+                                        if (mc.LocalName.ToUpper().Trim() == "RUTAPARAALOJARBOLETIN")
+                                        {
+                                            Sistema._RutaMaster_ParaAlojarBoletin = @mc.InnerText.Trim();
+                                        }
+                                    }
+                                }
+
+
                                 if (nv.LocalName.ToUpper().Trim() == "SUCURSAL")
                                 {
                                     foreach (XmlNode sc in nv.ChildNodes)
@@ -52,6 +64,28 @@ namespace TestComprimirDescomprimirZip.Helpers
                                         if (sc.LocalName.ToUpper().Trim() == "RUTAUBICACIONCIERRE")
                                         {
                                             Sistema._RutaUbicacionCierre = sc.InnerText.Trim();
+                                        }
+                                        if (sc.LocalName.ToUpper().Trim() == "EQUIPO")
+                                        {
+                                            foreach (XmlNode eq in sc.ChildNodes) 
+                                            {
+                                                if (eq.LocalName.ToUpper().Trim() == "RUTAPARACREARARCHIVOCIERRE")
+                                                {
+                                                    Sistema._RutaParaCrearArchivoCierre = @eq.InnerText.Trim();
+                                                }
+                                                if (eq.LocalName.ToUpper().Trim() == "RUTAPARAALOJARCIERRE")
+                                                {
+                                                    Sistema._RutaParaAlojarCierre = @eq.InnerText.Trim();
+                                                }
+                                                if (eq.LocalName.ToUpper().Trim() == "RUTAPARAALOJARBOLETIN") 
+                                                {
+                                                    Sistema._RutaParaAlojarBoletin = @eq.InnerText.Trim();
+                                                }
+                                                if (eq.LocalName.ToUpper().Trim() == "RUTAPARADESCOMPRIMIRBOLETIN")
+                                                {
+                                                    Sistema._RutaParaDescomprimirBoletin = @eq.InnerText.Trim();
+                                                }
+                                            }
                                         }
                                     }
                                 }

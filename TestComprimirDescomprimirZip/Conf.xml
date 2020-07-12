@@ -3,14 +3,24 @@
   <Modo>Master</Modo>
   
   <Servidor>
-    <Host>192.168.1.20</Host>
+    <Host>192.168.100.3</Host>
     <BD>00000001</BD>
   </Servidor>
+
+  <Master>
+    <RutaParaAlojarBoletin>c:/leonuxFtp/bandeja</RutaParaAlojarBoletin>
+  </Master>
 
   <Sucursal>
     <Id>02</Id>
     <RutaUbicacionBoletin>entrada02</RutaUbicacionBoletin>
     <RutaUbicacionCierre>entrada01</RutaUbicacionCierre>
+    <Equipo>
+      <RutaParaCrearArchivoCierre>c:/leonux/bandeja</RutaParaCrearArchivoCierre>
+      <RutaParaAlojarCierre>c:/leonuxFtp/bandeja</RutaParaAlojarCierre>
+      <RutaParaAlojarBoletin>c:/leonuxFtp/bandeja</RutaParaAlojarBoletin>
+      <RutaParaDescomprimirBoletin>c:/leonux/bandeja/temp</RutaParaDescomprimirBoletin>
+    </Equipo>
   </Sucursal>
 
   <EnviarBoletinA>2,3</EnviarBoletinA>
