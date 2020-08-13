@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuracion>
+  <Modo>Master</Modo>
+  
+  <Servidor>
+    <Host>192.168.100.10</Host>
+    <BD>panda</BD>
+  </Servidor>
+
+  <ServidorFtp>
+    <Host>ftp://grupocostaven.com</Host>
+    <Usuario>leonuxftp@grupocostaven.com</Usuario>
+    <Clave>71277128lftp</Clave>
+  </ServidorFtp>
+
+  <Master>
+    <RutaParaAlojarBoletin>c:/leonuxFtp/bandeja</RutaParaAlojarBoletin>
+  </Master>
+
+  <Sucursal>
+    <Id>02</Id>
+    <RutaUbicacionBoletin>entrada02</RutaUbicacionBoletin>
+    <RutaUbicacionCierre>entrada01</RutaUbicacionCierre>
+    <Equipo>
+      <RutaParaCrearArchivoCierre>c:/leonux/bandeja</RutaParaCrearArchivoCierre>
+      <RutaParaAlojarCierre>c:/leonuxFtp/bandeja</RutaParaAlojarCierre>
+      <RutaParaAlojarBoletin>c:/leonuxFtp/bandeja</RutaParaAlojarBoletin>
+      <RutaParaDescomprimirBoletin>c:/leonux/bandeja/temp</RutaParaDescomprimirBoletin>
+    </Equipo>
+  </Sucursal>
+
+  <EnviarBoletinA>2,3,4</EnviarBoletinA>
+  
+</Configuracion>

@@ -91,6 +91,25 @@ namespace TestComprimirDescomprimirZip.Helpers
                                 }
 
 
+                                if (nv.LocalName.ToUpper().Trim() == "SERVIDORFTP")
+                                {
+                                    foreach (XmlNode sf in nv.ChildNodes)
+                                    {
+                                        if (sf.LocalName.ToUpper().Trim() == "HOST")
+                                        {
+                                            Sistema._FtpHost = @sf.InnerText.Trim();
+                                        }
+                                        if (sf.LocalName.ToUpper().Trim() == "USUARIO")
+                                        {
+                                            Sistema._FtpUser = sf.InnerText.Trim();
+                                        }
+                                        if (sf.LocalName.ToUpper().Trim() == "CLAVE")
+                                        {
+                                            Sistema._FtpClave= sf.InnerText.Trim();
+                                        }
+                                    }
+                                }
+
                                 if (nv.LocalName.ToUpper().Trim() == "SERVIDOR")
                                 {
                                     foreach (XmlNode sv in nv.ChildNodes)

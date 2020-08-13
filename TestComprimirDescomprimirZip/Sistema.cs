@@ -16,6 +16,10 @@ namespace TestComprimirDescomprimirZip
         public static string _ServidorHost { get; set; }
         public static string _ServidorBD { get; set; }
 
+        public static string _FtpHost { get; set; }
+        public static string _FtpUser { get; set; }
+        public static string _FtpClave { get; set; }
+
         public static string _IdSucursal { get; set; }
         public static string _RutaUbicacionBoletin { get; set; }
         public static string _RutaUbicacionCierre { get; set; }

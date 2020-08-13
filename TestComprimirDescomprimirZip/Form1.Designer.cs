@@ -412,8 +412,10 @@
             // 
             // PB_FTP
             // 
+            this.PB_FTP.BackgroundImage = global::GestionFtp.Properties.Resources.FTP;
+            this.PB_FTP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.PB_FTP.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PB_FTP.Image = global::TestComprimirDescomprimirZip.Properties.Resources.FTP;
+            this.PB_FTP.ErrorImage = null;
             this.PB_FTP.Location = new System.Drawing.Point(2, 2);
             this.PB_FTP.Name = "PB_FTP";
             this.PB_FTP.Padding = new System.Windows.Forms.Padding(5);
