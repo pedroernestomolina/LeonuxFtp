@@ -45,6 +45,10 @@ namespace TestComprimirDescomprimirZip.Helpers
                                         {
                                             Sistema._RutaMaster_ParaAlojarBoletin = @mc.InnerText.Trim();
                                         }
+                                        if (mc.LocalName.ToUpper().Trim() == "ENVIARBOLETINA")
+                                        {
+                                            Sistema._ListaSucursalesEnviarBoletin = mc.InnerText.Trim().Split(',');
+                                        }
                                     }
                                 }
 
@@ -124,16 +128,7 @@ namespace TestComprimirDescomprimirZip.Helpers
                                         }
                                     }
                                 }
-
-                                if (nv.LocalName.ToUpper().Trim() == "ENVIARBOLETINA")
-                                {
-                                    Sistema._ListaSucursalesEnviarBoletin = nv.InnerText.Trim().Split(',');
-                                }
-
-                                if (nv.LocalName.ToUpper().Trim() == "DATALOCAL")
-                                {
-                                    //_DataLocal = nv.InnerText.Trim();
-                                }
+                            
                             }
                         }
                     }

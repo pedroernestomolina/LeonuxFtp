@@ -49,7 +49,9 @@ namespace TestComprimirDescomprimirZip
             BT_PREPARAR_CIERRE.Enabled = !_controlador.IsMaster;
             BT_INSERTAR_BOLETIN.Enabled = !_controlador.IsMaster;
 
+            panel15.Visible = !_controlador.IsMaster;
             L_VERSION.Text = "Ver. " + Application.ProductVersion;
+            L_SUCURSAL.Text = _controlador.IdSucursal;
         }
 
         private void BT_SUBIR_CIERRE_Click(object sender, EventArgs e)

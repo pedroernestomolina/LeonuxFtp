@@ -23,6 +23,7 @@ namespace TestComprimirDescomprimirZip
         private string _ruta_ParaBajarCierre;
 
         private string _rutaArchivosTxt_Boletin;
+
         //HOSTING
         private string _ftpUsername;
         private string _ftpPassword;
@@ -37,6 +38,7 @@ namespace TestComprimirDescomprimirZip
         private StringBuilder _st;
 
         public bool IsMaster { get { return _master;} }
+        public string IdSucursal { get { return Sistema._IdSucursal; } }
 
 
         public GestionFTP()

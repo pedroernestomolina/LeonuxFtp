@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Configuracion>
-  <Modo>Master</Modo>
+  <Modo>MASTER</Modo>
   
   <Servidor>
     <Host>192.168.100.10</Host>
@@ -15,6 +15,7 @@
 
   <Master>
     <RutaParaAlojarBoletin>c:/leonuxFtp/bandeja</RutaParaAlojarBoletin>
+    <EnviarBoletinA>2,3,4</EnviarBoletinA>
   </Master>
 
   <Sucursal>
@@ -28,7 +29,5 @@
       <RutaParaDescomprimirBoletin>c:/leonux/bandeja/temp</RutaParaDescomprimirBoletin>
     </Equipo>
   </Sucursal>
-
-  <EnviarBoletinA>2,3,4</EnviarBoletinA>
   
 </Configuracion>

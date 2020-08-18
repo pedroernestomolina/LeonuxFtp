@@ -1,4 +1,8 @@
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\Conf.xml
+D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\imagenes\FTP.png
+D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\GestionFtp.exe.config
+D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\GestionFtp.exe
+D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\GestionFtp.pdb
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\DtoLib.dll
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\DtoLibPosOffLine.dll
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\IPosOffLine.dll
@@ -14,10 +18,7 @@ D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprim
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\LibEntitySqLitePosOffLine.pdb
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\obj\Debug\TestComprimirDescomprimirZip.csprojResolveAssemblyReference.cache
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\obj\Debug\TestComprimirDescomprimirZip.Form1.resources
-D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\obj\Debug\TestComprimirDescomprimirZip.csproj.GenerateResource.Cache
-D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\GestionFtp.exe.config
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\obj\Debug\GestionFtp.Properties.Resources.resources
-D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\GestionFtp.exe
-D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\GestionFtp.pdb
+D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\obj\Debug\TestComprimirDescomprimirZip.csproj.GenerateResource.Cache
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\obj\Debug\GestionFtp.exe
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\obj\Debug\GestionFtp.pdb

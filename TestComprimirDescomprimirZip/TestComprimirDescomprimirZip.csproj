@@ -111,7 +111,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="imagenes\FTP.png" />
+    <Content Include="imagenes\FTP.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="imagenes\LeonuxMovil.ico" />
     <None Include="Resources\LeonuxMovil.ico" />
     <None Include="Resources\FTP.png" />
