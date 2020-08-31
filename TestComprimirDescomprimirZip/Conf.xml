@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Configuracion>
-  <Modo>MASTER</Modo>
+  <Modo></Modo>
   
   <Servidor>
-    <Host>192.168.100.10</Host>
-    <BD>panda</BD>
+    <Host>localhost</Host>
+    <BD>panda2</BD>
   </Servidor>
 
   <ServidorFtp>
