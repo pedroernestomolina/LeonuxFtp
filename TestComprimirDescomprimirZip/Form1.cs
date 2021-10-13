@@ -31,11 +31,13 @@ namespace TestComprimirDescomprimirZip
         private void BT_BAJAR_BOLETIN_Click(object sender, EventArgs e)
         {
             BajarBoletin();
+            InsertarBoletin();
         }
 
         private void BajarBoletin()
         {
             _controlador.BajarBoletin();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -46,8 +48,8 @@ namespace TestComprimirDescomprimirZip
 
             BT_BAJAR_BOLETIN.Enabled = !_controlador.IsMaster;
             BT_SUBIR_CIERRE.Enabled = !_controlador.IsMaster;
-            BT_PREPARAR_CIERRE.Enabled = !_controlador.IsMaster;
-            BT_INSERTAR_BOLETIN.Enabled = !_controlador.IsMaster;
+           // BT_PREPARAR_CIERRE.Enabled = !_controlador.IsMaster;
+           // BT_INSERTAR_BOLETIN.Enabled = !_controlador.IsMaster;
 
             panel15.Visible = !_controlador.IsMaster;
             L_VERSION.Text = "Ver. " + Application.ProductVersion;
@@ -61,7 +63,9 @@ namespace TestComprimirDescomprimirZip
 
         private void SubirCierreAlFtp()
         {
-            _controlador.SubirCierreAlFtp();
+            _controlador.PrepararCierre();
+            if (_controlador.PrepararCierreIsOk)
+                _controlador.SubirCierreAlFtp();
         }
 
         private void BT_ENVIAR_BOLETIN_Click(object sender, EventArgs e)
@@ -122,7 +126,28 @@ namespace TestComprimirDescomprimirZip
 
         private void InsertarBoletin()
         {
+            if (_controlador.DescargaBoletinIsOk)
+                _controlador.InsertarBoletin();
+        }
+
+        private void TSM_SISTEMA_INSERTAR_BOLETIN_MANUAL_Click(object sender, EventArgs e)
+        {
+            InsertarBoletinManual();
+        }
+
+        private void InsertarBoletinManual()
+        {
             _controlador.InsertarBoletin();
+        }
+
+        private void TSM_SISTEMA_INSERTAR_CIERRE_MANUAL_Click(object sender, EventArgs e)
+        {
+            InsertarCierreManual();
+        }
+
+        private void InsertarCierreManual()
+        {
+            _controlador.Proceso_InsertarCierreManual();
         }
    
     }

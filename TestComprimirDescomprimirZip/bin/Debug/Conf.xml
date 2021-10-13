@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Configuracion>
-  <Modo></Modo>
+  <Modo>MASTER</Modo>
   
   <Servidor>
-    <Host>localhost</Host>
-    <BD>panda2</BD>
+    <Host>192.168.0.185</Host>
+    <BD>00000001</BD>
   </Servidor>
 
   <ServidorFtp>
-    <Host>ftp://grupocostaven.com</Host>
-    <Usuario>leonuxftp@grupocostaven.com</Usuario>
-    <Clave>71277128lftp</Clave>
+    <Host>ftp://pitabodegas.com</Host>
+    <Usuario>leonuxftp@pitabodegas.com</Usuario>
+    <Clave>71277128</Clave>
   </ServidorFtp>
 
   <Master>
     <RutaParaAlojarBoletin>c:/leonuxFtp/bandeja</RutaParaAlojarBoletin>
-    <EnviarBoletinA>2,3,4</EnviarBoletinA>
+    <EnviarBoletinA></EnviarBoletinA>
   </Master>
 
   <Sucursal>
-    <Id>02</Id>
-    <RutaUbicacionBoletin>entrada02</RutaUbicacionBoletin>
+    <Id>08</Id>
+    <RutaUbicacionBoletin></RutaUbicacionBoletin>
     <RutaUbicacionCierre>entrada01</RutaUbicacionCierre>
     <Equipo>
       <RutaParaCrearArchivoCierre>c:/leonux/bandeja</RutaParaCrearArchivoCierre>

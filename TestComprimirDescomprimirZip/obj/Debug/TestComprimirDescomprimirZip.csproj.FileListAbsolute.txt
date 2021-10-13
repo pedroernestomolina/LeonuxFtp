@@ -10,12 +10,14 @@ D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprim
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\ProvSqLitePosOffLine.dll
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\EntityFramework.dll
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\LibEntitySqLitePosOffLine.dll
+D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\System.Data.SQLite.dll
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\DtoLib.pdb
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\DtoLibPosOffLine.pdb
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\IPosOffLine.pdb
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\ProvSqLitePosOffLine.pdb
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\EntityFramework.xml
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\LibEntitySqLitePosOffLine.pdb
+D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\bin\Debug\System.Data.SQLite.xml
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\obj\Debug\TestComprimirDescomprimirZip.csprojResolveAssemblyReference.cache
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\obj\Debug\TestComprimirDescomprimirZip.Form1.resources
 D:\Proyectos FoxSystem\Test\TestComprimirDescomprimirZip\TestComprimirDescomprimirZip\obj\Debug\GestionFtp.Properties.Resources.resources
