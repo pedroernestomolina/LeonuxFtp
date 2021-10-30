@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Configuracion>
-  <Modo>MASTER</Modo>
+  <Modo></Modo>
   
   <Servidor>
-    <Host>192.168.0.185</Host>
-    <BD>00000001</BD>
+    <Host>localhost</Host>
+    <BD>bodega2</BD>
   </Servidor>
 
   <ServidorFtp>
